@@ -14,33 +14,45 @@
                     },
                     {
                         "title": "Misery",
+                        "id": "misery",
                         "leadVocals": ["McCartney", "Lennon"],
-                        "length": "1:49"
+                        "length": "1:49",
+                        "moreinfo":true
                     },
                     {
                         "title": "Anna (Go to Him)",
+                        "id": "anna-go-to-him",
                         "leadVocals": ["Lennon"],
-                        "length": "2:57"
+                        "length": "2:57",
+                        "moreinfo":true
                     },
                     {
                         "title": "Chains",
+                        "id": "chains",
                         "leadVocals": ["Harrison"],
-                        "length": "2:26"
+                        "length": "2:26",
+                        "moreinfo":true
                     },
                     {
                         "title": "Boys",
+                        "id": "boys",
                         "leadVocals": ["Ringo Starr"],
-                        "length": "2:27"
+                        "length": "2:27",
+                        "moreinfo":true
                     },
                     {
                         "title": "Ask Me Why",
+                        "id": "ask-me-why",
                         "leadVocals": ["Lennon"],
-                        "length": "2:26"
+                        "length": "2:26",
+                        "moreinfo":true
                     },
                     {
                         "title": "Please Please Me",
+                        "id": "please-please-me",
                         "leadVocals": ["Lennon"],
-                        "length": "2:03"
+                        "length": "2:03",
+                        "moreinfo":true
                     }
                 ]
             },
@@ -52,37 +64,43 @@
                         "title": "Come Together",
                         "id": "come-together",
                         "leadVocals": ["Lennon"],
-                        "length": "4:20"
+                        "length": "4:20",
+                        "moreinfo":true
                     },
                     {
                         "title": "Something",
                         "id": "something",
                         "leadVocals": ["Harrison"],
-                        "length": "3:03"
+                        "length": "3:03",
+                        "moreinfo":true
                     },
                     {
                         "title": "Maxwell's Silver Hammer",
                         "id": "maxwells-silver-hammer",
                         "leadVocals": ["McCartney"],
-                        "length": "3:27"
+                        "length": "3:27",
+                        "moreinfo":true
                     },
                     {
                         "title": "Oh! Darling",
                         "id": "oh-darling",
                         "leadVocals": ["McCartney"],
-                        "length": "3:26"
+                        "length": "3:26",
+                        "moreinfo":true
                     },
                     {
                         "title": "I Want You",
                         "id": "i-want-you",
                         "leadVocals": ["Lennon"],
-                        "length": "7:47"
+                        "length": "7:47",
+                        "moreinfo":true
                     },
                     {
                         "title": "Sun King",
                         "id": "sun-king",
                         "leadVocals": ["Lennon", "McCartney", "Harrison"],
-                        "length": "2:26"
+                        "length": "2:26",
+                        "moreinfo":true
                     }
                 ]
             }

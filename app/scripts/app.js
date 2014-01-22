@@ -8,10 +8,6 @@ angular.module('devApp', [
 ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
       .when('/albums', {
         templateUrl: 'views/albums.html',
         controller: 'AlbumsCtrl'
