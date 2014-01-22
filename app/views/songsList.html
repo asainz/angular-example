@@ -5,7 +5,7 @@
         <input type="text" placeholder="Search a song" ng-model="search" />
     </div>
     <ul>
-        <li ng-repeat="song in album.songs | filter:search">
+        <li ng-repeat="song in album.songs | filter:search | orderBy:orderKey">
             <div ng-show="song.moreinfo">
                 <a href="#/albums/{{album.id}}/{{song.id}}">
                     <span>{{song.title}}</span>
@@ -20,4 +20,57 @@
             </div>
         </li>
     </ul>
+
+    <div>
+        <h3>Wanna be a Beatle too?<br/><small>Add your song!</small></h3>
+    </div>
+
+    <form name="enterSongForm" role="form" novalidate>
+        <div class="form-group" ng-class="getValidationClasses(enterSongForm.songTitle)" >
+            <label class="control-label" for="songTitle">Song title:</label>
+            <input 
+                class="form-control" 
+                type="text" 
+                placeholder="Yelloy Submarine" 
+                id="songTitle" 
+                name="songTitle" 
+                ng-model="newSong.title" 
+                ng-required="true" 
+                ng-pattern="/^[\w ]+$/" 
+            >
+        </div>
+
+        <div class="form-group" ng-class="getValidationClasses(enterSongForm.leadVocals)">
+            <label class="control-label" for="leadVocals">Lead Vocals:</label>
+            <input 
+                class="form-control" 
+                type="text" 
+                placeholder="Ringo Starr" 
+                id="leadVocals" 
+                name="leadVocals" 
+                ng-model="newSong.leadVocals" 
+                ng-required="true" 
+                ng-pattern="/^[\w ]+$/" 
+            >
+        </div>
+
+        <div class="form-group" ng-class="getValidationClasses(enterSongForm.length)">
+            <label class="control-label" for="length">Length <small>(00:00)</small>:</label>
+            <input 
+                class="form-control" 
+                type="text" 
+                placeholder="2:38" 
+                id="length" 
+                name="length" 
+                ng-model="newSong.length" 
+                ng-required="true" 
+                ng-pattern="/^\d{1,2}:\d{2}$/" 
+            >
+        </div>
+
+        <div class="form-group">
+            <button type="button" ng-disabled="enterSongForm.$invalid" class="btn btn-success" ng-click="addSongToList(enterSongForm)">Add it!</button>
+            <button type="button" ng-disabled="enterSongForm.$pristine" class="btn btn-danger" ng-click="clearForm(enterSongForm)">Clear it</button>
+        </div>
+    </form>
 </div>
