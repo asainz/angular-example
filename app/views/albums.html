@@ -1,0 +1,8 @@
+<div class="info-container">
+    <h1>{{albums.band}}</h1>
+    <ul class="js-albums-list">
+        <li ng-repeat="album in albums.albums">
+            <a href="#/albums/{{album.id}}">{{album.title}}</a>
+        </li>
+    </ul>
+</div>

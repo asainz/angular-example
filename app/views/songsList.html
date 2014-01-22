@@ -1,0 +1,16 @@
+<ul class="info-container">
+    <li ng-repeat="song in album.songs">
+        <div ng-show="song.moreinfo">
+            <a href="#/albums/{{album.id}}/{{song.id}}">
+                <span>{{song.title}}</span>
+                <span ng-repeat="name in song.leadVocals">{{name}}</span>
+                <span>{{song.length}}</span>
+            </a>
+        </div>
+        <div ng-hide="song.moreinfo">
+            <span>{{song.title}}</span>
+            <span ng-repeat="name in song.leadVocals">{{name}}</span>
+            <span>{{song.length}}</span>
+        </div>
+    </li>
+</ul>

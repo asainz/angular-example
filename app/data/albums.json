@@ -1,0 +1,90 @@
+{
+        "band": "The Beatles",
+        "albums": [
+            {
+                "title": "Please Please Me",
+                "id": "please-please-me",
+                "songs": [
+                    {
+                        "title": "I Saw Her Standing There",
+"id":"i-saw-her-standing-there",
+                        "leadVocals": ["McCartney"],
+                        "length": "2:54",
+"moreinfo":true
+                    },
+                    {
+                        "title": "Misery",
+                        "leadVocals": ["McCartney", "Lennon"],
+                        "length": "1:49"
+                    },
+                    {
+                        "title": "Anna (Go to Him)",
+                        "leadVocals": ["Lennon"],
+                        "length": "2:57"
+                    },
+                    {
+                        "title": "Chains",
+                        "leadVocals": ["Harrison"],
+                        "length": "2:26"
+                    },
+                    {
+                        "title": "Boys",
+                        "leadVocals": ["Ringo Starr"],
+                        "length": "2:27"
+                    },
+                    {
+                        "title": "Ask Me Why",
+                        "leadVocals": ["Lennon"],
+                        "length": "2:26"
+                    },
+                    {
+                        "title": "Please Please Me",
+                        "leadVocals": ["Lennon"],
+                        "length": "2:03"
+                    }
+                ]
+            },
+            {
+                "title": "Abbey Road",
+                "id": "abbey-road",
+                "songs": [
+                    {
+                        "title": "Come Together",
+                        "id": "come-together",
+                        "leadVocals": ["Lennon"],
+                        "length": "4:20"
+                    },
+                    {
+                        "title": "Something",
+                        "id": "something",
+                        "leadVocals": ["Harrison"],
+                        "length": "3:03"
+                    },
+                    {
+                        "title": "Maxwell's Silver Hammer",
+                        "id": "maxwells-silver-hammer",
+                        "leadVocals": ["McCartney"],
+                        "length": "3:27"
+                    },
+                    {
+                        "title": "Oh! Darling",
+                        "id": "oh-darling",
+                        "leadVocals": ["McCartney"],
+                        "length": "3:26"
+                    },
+                    {
+                        "title": "I Want You",
+                        "id": "i-want-you",
+                        "leadVocals": ["Lennon"],
+                        "length": "7:47"
+                    },
+                    {
+                        "title": "Sun King",
+                        "id": "sun-king",
+                        "leadVocals": ["Lennon", "McCartney", "Harrison"],
+                        "length": "2:26"
+                    }
+                ]
+            }
+        ]
+    }
